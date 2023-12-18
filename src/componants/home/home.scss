@@ -1,0 +1,38 @@
+body{
+  background-color: black !important;
+}
+
+.typeWriter{
+  color: white;
+  font-size: 2em;
+
+}
+
+.icons{
+  display: block;
+  margin-top: 10em;
+
+  justify-content: space-between;
+}
+
+.iconElement{
+  margin: 40px;
+
+}
+
+#linkedin, #github{
+  transition: 0.5s;
+}
+
+#linkedin:hover{
+  color: #029cd7 !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+#github:hover{
+  transition: 0.5s ;
+  color: gray !important;
+  cursor: pointer;
+}
